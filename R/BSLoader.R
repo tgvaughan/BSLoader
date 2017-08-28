@@ -34,7 +34,7 @@ beastPackageInstalled <- function(packageName, version=2.4) {
 #' operating system.
 #'
 #' @param beastPackageName Name of an installed BEAST 2 package. (Case sensitive)
-#' @param beastVersion Version of 
+#' @param beastVersion Version of BEAST 2.
 #' 
 #' @return This function doesn't return anything.  It simply loads (sources) the
 #' R scripts it finds.
