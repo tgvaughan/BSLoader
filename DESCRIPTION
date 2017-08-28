@@ -1,0 +1,14 @@
+Package: BSLoader
+Title: BEAST 2 Package Script Loader
+Version: 1.0.0
+Authors@R: person("Tim", "Vaughan", email = "tgvaughan@gmail.com", role = c("aut", "cre"))
+Description: This package provides the function load.beast.scripts()
+             which makes it possible to easily source in the R scripts
+             destributed with a named BEAST 2 package, assuming that
+             the packages are installed in the default location for
+             the host operating system.
+Depends: R (>= 3.4.1)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
