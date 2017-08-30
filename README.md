@@ -21,3 +21,9 @@ simply use
     load.beast.scripts("EpiInf")
 
 Enjoy!
+
+## BEAST 2 Package Developers
+
+If you want to make R scripts in your BEAST 2 package discoverable by
+BSLoader, simply put them into a directory named `/scripts/` and make
+sure that this directory is included in your package archive.
